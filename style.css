@@ -1,0 +1,117 @@
+{
+    padding:  0
+    margin: 0
+    box-sizing: border-box
+}
+<header>{
+
+    background-image:linear-gradient rgba(0, 0, 0, 0.6 ) ,rgba(0, 0, 0, 0.6 ), url(./image/nature-6662283_640.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo a{
+    color: floralwhite;
+    padding: 0px 20px;
+    border: 1px solid floralwhite;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: rgba(0, 0, 0, 0.7)
+
+
+}
+
+.logo span{
+    color: rgb(238, 56, 11);
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+
+Ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+
+}
+Ul li a{
+      text-decoration: none;
+    color: floralwhite;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.6s ease;
+
+}
+
+Ul li a:hover{
+    background: floralwhite;
+    color: black;
+
+}
+.principale{
+    max-width: 114rem;
+    margin: 0 auto;
+
+}
+
+Ul li :active a{
+    background: floralwhite;
+    color: black;
+
+}
+.principale{
+    max-width: 114rem;
+    margin:0 auto;
+}
+
+.titre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%  );
+}
+.titre h1 {
+    color: floralwhite;
+    font-size: 70px;
+
+}
+
+.bouton{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%  );
+}
+
+.bouton a{
+    color: floralwhite;
+    text-decoration: none;
+    border: 1px solid floralwhite;
+    padding: 10px 20px;
+
+}
+
+.btn{
+    transition: 00.6s ease;
+}
+
+.btn:hover{
+    background-color: floralwhite;
+    color: black;
+
+}footer{
+    background-color: brown;
+}
+
+
+
+
